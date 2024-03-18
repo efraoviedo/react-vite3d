@@ -13,6 +13,9 @@ dist
 dist-ssr
 *.local
 
+# Readme
+README.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
