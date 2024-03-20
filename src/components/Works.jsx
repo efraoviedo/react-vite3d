@@ -68,34 +68,7 @@ const ListItem = styled.li`
     -webkit-text-stroke: 0px;
   }
 
-  // &:hover {
-    // color: pink; // Cambia el color del texto en hover
-    // -webkit-text-stroke: 0px; // Quita el texto de contorno
-  // }
 
-  // ::after {
-    // content: "${(props) => props.text}";
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    color: pink;
-    // width: 0px;
-    // overflow: hidden;
-    // white-space: nowrap;
-    // transition: width 0.5s linear;
-  // }
-
-  // &:hover {
-    // ::after {
-      // animation: moveText 0.5s linear both;
-
-      // @keyframes moveText {
-        // to {
-          // width: 100%;
-        // }
-      // }
-    // }
-  // }
 
   span {
     position: relative;

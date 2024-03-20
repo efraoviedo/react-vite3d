@@ -2,7 +2,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
 import { styled } from "styled-components";
-import Cube from "./Cube";
+// import Cube from "./Cube";
 import Dodecahedro from "./Dodecahedro";
 
 const Section = styled.div`
@@ -18,24 +18,30 @@ const Container = styled.div`
   align-items: center;
   height: 200vh;
   width: 100vh;
+  top: 5px;
   scroll-snap-align: center;
 
   @media only screen and (max-width: 768px) {
-    height: 100vh;
-    width: 50vh;
+    // display: flex;
+    // justify-content: center;
+    // height: 90vh;
+    // width: 50vh;
     padiing-right: 120;
-    padiing-top: 0;
+    // padiing-top: 0;
     margin-right: 20;
-    margin-top: 0;
+    // margin-top: 0;
+
+    display: none;
   }
 `;
+
 
 const Test = () => {
   return (
     <Section>
       <Container>
         {/* <p>quedamos en el minuto 1:07:54</p> */}
-        <Canvas>
+        <Canvas style={{ width: "830px", height: "400px", top: "0px", backgroundColor: "black" }}>
 
           <OrbitControls enableZoom={false} autoRotate />
           <ambientLight intensity={1} />

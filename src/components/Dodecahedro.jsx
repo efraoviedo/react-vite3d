@@ -10,7 +10,7 @@ const Dodecahedro = () => {
   );
   return (
     <mesh>
-      <dodecahedronGeometry args={[1.1, 0]} />
+      <dodecahedronGeometry args={[3.0, 0]} />
       <meshStandardMaterial>
         <RenderTexture attach="map">
           <PerspectiveCamera makeDefault position={[0, 1, 5]} />
@@ -24,7 +24,7 @@ const Dodecahedro = () => {
             >
             Efraín 
             Oviedo
-            Torres
+            
           </Text>
         </RenderTexture>
       </meshStandardMaterial>
